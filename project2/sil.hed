@@ -1,0 +1,4 @@
+AT 2 4 0.2 {sil.transP}
+AT 4 2 0.2 {sil.transP}
+AT 1 3 0.3 {uzdah.transP}
+TI silst {uzdah.state[3],uzdah.state[2]}

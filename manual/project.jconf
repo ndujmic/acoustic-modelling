@@ -1,0 +1,41 @@
+# VoxForge configurations:
+# finite state automaton grammar file
+-dfa ../project2/project.dfa
+# pronunciation dictionary
+-v ../project2/project.dict
+ # acoustic HMM (ascii or Julius binary)
+-h ../project2/hmm15/hmmdefs
+# HMMList to map logical phone to physical
+-hlist ../project2/tiedlist
+# sampling rate (Hz)
+-smpFreq 16000
+ # name of a short-pause silence model
+-spmodel "uzdah"
+# force enable MULTI-PATH model handling
+-multipath
+# Gaussian pruning method
+-gprune safe
+# Inter-word triphone approximation method
+-iwcd1 max
+# transition penalty for the appended sp models
+-iwsppenalty -70.0
+# append a skippable sp model at all word ends
+-iwsp
+# word insertion penalty for grammar (pass1)
+-penalty1 5.0
+# word insertion penalty for grammar (pass2)
+-penalty2 20.0
+# beam width on 2nd pass (#words)
+-b2 200
+# score beam envelope threshold
+-sb 200.0
+# num of sentences to find
+-n 1
+
+# you may need to adjust your "-lv" value to prevent the recognizer inadvertently 
+# recognizing non-speech sounds:
+-lv 4000			# level threshold (0-32767)
+
+# comment these out for debugging:
+#-logfile julius.log
+#-quiet

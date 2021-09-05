@@ -1,0 +1,52 @@
+WARNING: no script file ../lexicon/voxforge_lexicon.ded
+
+Dictionary Usage Statistics
+---------------------------
+  Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
+voxforge_lex      6203       6203       6211       6211
+        dict      6203       6203       6211       6211
+
+6203 words required, 0 missing
+
+New Phone Usage Counts
+---------------------
+  1. DZ    :    20
+  2. a     :  3799
+  3. z     :   780
+  4. i:    :  1011
+  5. r     :  2616
+  6. uzdah :  6180
+  7. e:    :  1129
+  8. f     :   119
+  9. h     :   346
+ 10. u     :  1263
+ 11. n     :  2852
+ 12. j     :  1552
+ 13. m     :  1536
+ 14. s     :  2183
+ 15. k     :  1685
+ 16. o     :  2702
+ 17. d     :  1433
+ 18. i     :  3267
+ 19. o:    :  1429
+ 20. sil   :    31
+ 21. a:    :  1706
+ 22. b     :   696
+ 23. e     :  2613
+ 24. l     :  1502
+ 25. c     :   578
+ 26. t     :  2335
+ 27. v     :  1659
+ 28. g     :   817
+ 29. C     :   555
+ 30. Z     :   285
+ 31. p     :  1547
+ 32. cc    :   285
+ 33. N     :   446
+ 34. S     :   432
+ 35. L     :   293
+ 36. dz    :    92
+ 37. r:    :   156
+ 38. u:    :   678
+
+Dictionary dict created

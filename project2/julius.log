@@ -1,0 +1,243 @@
+STAT: jconf successfully finalized
+STAT: *** loading AM00 _default
+Stat: init_phmm: Reading in HMM definition
+Stat: rdhmmdef: ascii format HMM definition
+Stat: rdhmmdef: limit check passed
+Stat: check_hmm_restriction: an HMM with several arcs from initial state found: "uzdah"
+Stat: rdhmmdef: this HMM requires multipath handling at decoding
+Stat: rdhmmdef: no <SID> embedded
+Stat: rdhmmdef: assign SID by the order of appearance
+Stat: init_phmm: defined HMMs:    38
+Stat: init_phmm: loading ascii hmmlist
+Stat: init_phmm: logical names:    38 in HMMList
+Stat: init_phmm: base phones:    38 used in logical
+Stat: init_phmm: finished reading HMM definitions
+STAT: m_fusion: force multipath HMM handling by user request
+STAT: *** AM00 _default loaded
+STAT: *** loading LM00 _default
+STAT: reading [..\manual\../project2/project.dfa] and [..\manual\../project2/project.dict]...
+Stat: init_voca: read 145 words
+STAT: done
+STAT: Gram #0 project registered
+STAT: Gram #0 project: new grammar loaded, now mash it up for recognition
+STAT: Gram #0 project: extracting category-pair constraint for the 1st pass
+STAT: Gram #0 project: installed
+STAT: Gram #0 project: turn on active
+STAT: grammar update completed
+STAT: *** LM00 _default loaded
+STAT: ------
+STAT: All models are ready, go for final fusion
+STAT: [1] create MFCC extraction instance(s)
+STAT: *** create MFCC calculation modules from AM
+STAT: AM 0 _default: create a new module MFCC01
+STAT: 1 MFCC modules created
+STAT: [2] create recognition processing instance(s) with AM and LM
+STAT: composing recognizer instance SR00 _default (AM00 _default, LM00 _default)
+STAT: Building HMM lexicon tree
+STAT: lexicon size: 2061 nodes
+STAT: coordination check passed
+STAT: multi-gram: beam width set to 200 (guess) by lexicon change
+STAT: wchmm (re)build completed
+STAT: SR00 _default composed
+STAT: [3] initialize for acoustic HMM calculation
+Stat: outprob_init: state-level mixture PDFs, use calc_mix()
+Stat: addlog: generating addlog table (size = 1953 kB)
+Stat: addlog: addlog table generated
+STAT: [4] prepare MFCC storage(s)
+STAT: All init successfully done
+
+STAT: ###### initialize input device
+----------------------- System Information begin ---------------------
+JuliusLib rev.4.3.1 (fast)
+
+Engine specification:
+ -  Base setup   : fast
+ -  Supported LM : DFA, N-gram, Word
+ -  Extension    : NoPThread
+ -  Compiled by  : i686-w64-mingw32-gcc -O6 -fomit-frame-pointer
+
+------------------------------------------------------------
+Configuration of Modules
+
+ Number of defined modules: AM=1, LM=1, SR=1
+
+ Acoustic Model (with input parameter spec.):
+ - AM00 "_default"
+	hmmfilename=..\manual\../project2/hmm9/hmmdefs
+	hmmmapfilename=..\manual\../project2/monophones1
+
+ Language Model:
+ - LM00 "_default"
+	grammar #1:
+	    dfa  = ..\manual\../project2/project.dfa
+	    dict = ..\manual\../project2/project.dict
+
+ Recognizer:
+ - SR00 "_default" (AM00, LM00)
+
+------------------------------------------------------------
+Speech Analysis Module(s)
+
+[MFCC01]  for [AM00 _default]
+
+ Acoustic analysis condition:
+	       parameter = MFCC_0_D_N_Z (25 dim. from 12 cepstrum + c0, abs energy supressed with CMN)
+	sample frequency = 16000 Hz
+	   sample period =  625  (1 = 100ns)
+	     window size =  400 samples (25.0 ms)
+	     frame shift =  160 samples (10.0 ms)
+	    pre-emphasis = 0.97
+	    # filterbank = 24
+	   cepst. lifter = 22
+	      raw energy = False
+	energy normalize = False
+	    delta window = 2 frames (20.0 ms) around
+	     hi freq cut = OFF
+	     lo freq cut = OFF
+	 zero mean frame = OFF
+	       use power = OFF
+	             CVN = OFF
+	            VTLN = OFF
+
+    spectral subtraction = off
+
+ cep. mean normalization = yes, with per-utterance self mean
+ cep. var. normalization = no
+
+	 base setup from = Julius defaults
+
+------------------------------------------------------------
+Acoustic Model(s)
+
+[AM00 "_default"]
+
+ HMM Info:
+    38 models, 112 states, 112 mpdfs, 112 Gaussians are defined
+	      model type = context dependency handling OFF
+      training parameter = MFCC_N_D_Z_0
+	   vector length = 25
+	number of stream = 1
+	     stream info = [0-24]
+	cov. matrix type = DIAGC
+	   duration type = NULLD
+	max mixture size = 1 Gaussians
+     max length of model = 5 states
+     logical base phones = 38
+       model skip trans. = exist, require multi-path handling
+      skippable models = uzdah (1 model(s))
+
+ AM Parameters:
+        Gaussian pruning = safe  (-gprune)
+  top N mixtures to calc = 2 / 0  (-tmix)
+    short pause HMM name = "uzdah" specified, "uzdah" applied (physical)  (-sp)
+  cross-word CD on pass1 = handle by approx. (use max. prob. of same LC)
+   sp transition penalty = -70.0
+
+------------------------------------------------------------
+Language Model(s)
+
+[LM00 "_default"] type=grammar
+
+ DFA grammar info:
+      10 nodes, 20 arcs, 10 terminal(category) symbols
+      category-pair matrix: 100 bytes (1080 bytes allocated)
+
+ Vocabulary Info:
+        vocabulary size  = 145 words, 1074 models
+        average word len = 7.4 models, 22.2 states
+       maximum state num = 48 nodes per word
+       transparent words = not exist
+       words under class = not exist
+
+ Parameters:
+   found sp category IDs =
+
+------------------------------------------------------------
+Recognizer(s)
+
+[SR00 "_default"]  AM00 "_default"  +  LM00 "_default"
+
+ Lexicon tree:
+	 total node num =   2061
+	  root node num =     33
+	  leaf node num =    145
+
+	(-penalty1) IW penalty1 = +5.0
+	(-penalty2) IW penalty2 = +20.0
+	(-cmalpha)CM alpha coef = 0.050000
+
+	 inter-word short pause = on (append "uzdah" for each word tail)
+	  sp transition penalty = -70.0
+ Search parameters: 
+	    multi-path handling = yes, multi-path mode enabled
+	(-b) trellis beam width = 200 (-1 or not specified - guessed)
+	(-bs)score pruning thres= disabled
+	(-n)search candidate num= 1
+	(-s)  search stack size = 500
+	(-m)    search overflow = after 2000 hypothesis poped
+	        2nd pass method = searching sentence, generating N-best
+	(-b2)  pass2 beam width = 200
+	(-lookuprange)lookup range= 5  (tm-5 <= t <tm+5)
+	(-sb)2nd scan beamthres = 200.0 (in logscore)
+	(-n)        search till = 1 candidates found
+	(-output)    and output = 1 candidates out of above
+	 all possible words will be expanded in 2nd pass
+	 build_wchmm2() used
+	 lcdset limited by word-pair constraint
+	short pause segmentation = off
+	fall back on search fail = off, returns search failure
+
+------------------------------------------------------------
+Decoding algorithm:
+
+	1st pass input processing = buffered, batch
+	1st pass method = 1-best approx. generating indexed trellis
+	output word confidence measure based on search-time scores
+
+------------------------------------------------------------
+FrontEnd:
+
+ Input stream:
+	             input type = waveform
+	           input source = waveform file
+	          input filelist = .\test_audio_files.txt
+	          sampling freq. = 16000 Hz required
+	         threaded A/D-in = not supported (live input may be dropped)
+	   zero frames stripping = on
+	         silence cutting = off
+	    long-term DC removal = off
+	    long-term DC removal = off
+	    level scaling factor = 1.00 (disabled)
+	      reject short input = off
+	      reject  long input = off
+
+----------------------- System Information end -----------------------
+
+Notice for feature extraction (01),
+	*************************************************************
+	* Cepstral mean normalization for batch decoding:           *
+	* per-utterance mean will be computed and applied.          *
+	*************************************************************
+Stat: adin_file: input speechfile: ..\test\wav\povecanja_sto1.wav
+STAT: 32720 samples (2.04 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+Stat: adin_file: input speechfile: ..\test\wav\povecanja_sto2.wav
+STAT: 36080 samples (2.25 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+Stat: adin_file: input speechfile: ..\test\wav\smanjio_petero1.wav
+STAT: 36560 samples (2.29 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+Stat: adin_file: input speechfile: ..\test\wav\smanjio_petero2.wav
+STAT: 32480 samples (2.03 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+Stat: adin_file: input speechfile: ..\test\wav\smanjio_petero3.wav
+STAT: 33200 samples (2.08 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+Stat: adin_file: input speechfile: ..\test\wav\smanjio_petero4.wav
+STAT: 37040 samples (2.31 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+Stat: adin_file: input speechfile: ..\test\wav\smanjio_petero5_w.wav
+STAT: 27920 samples (1.75 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found

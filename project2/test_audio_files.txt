@@ -1,0 +1,7 @@
+..\test\wav\povecanja_sto1.wav
+..\test\wav\povecanja_sto2.wav
+..\test\wav\smanjio_petero1.wav
+..\test\wav\smanjio_petero2.wav
+..\test\wav\smanjio_petero3.wav
+..\test\wav\smanjio_petero4.wav
+..\test\wav\smanjio_petero5_w.wav

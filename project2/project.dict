@@ -1,0 +1,145 @@
+0	[<s>]	sil
+1	[</s>]	sil
+2	[iz]	i z
+3	[hrvatska]	h r: v a c k a
+3	[njema~ka]	N e: m a C k a
+3	[njema~kome]	N e: m a C k o m e
+3	[njema~kim]	N e: m a C k i m
+3	[njema~kih]	N e: m a C k i h
+3	[{panjolskim]	S p a: N o l s k i m
+3	[{panjolski]	S p a: N o l s k i
+3	[srpskocrnogorske]	s r: p s k o c r n o: g o r s k e
+3	[srpskoga]	s r: p s k o g a
+4	[jedan]	j e: d a n
+4	[jednoga]	j e: d n o g a
+4	[jednog]	j e: d n o g
+4	[jednu]	j e: d n u
+4	[dva]	d v a:
+4	[dvoja]	d v o: j a
+4	[dvoje]	d v o: j e
+4	[dvojica]	d v o: j i c a
+4	[tri]	t r: i
+4	[troje]	t r o: j e
+4	[trojica]	t r o: j i c a
+4	[~etiri]	C e: t r i
+4	[~etiriju]	C e t i r i: j u
+4	[~etirima]	C e t i r i: m a
+4	[~etvrtog]	C e: t v r t o g
+4	[~etvrte]	C e: t v r t e
+4	[pet]	p e: t
+4	[petero]	p e: t e r o
+4	[petoga]	p e: t o g a
+4	[peti]	p e: t i
+4	[pete]	p e: t e
+4	[petorica]	p e t o: r i c a
+4	[petu]	p e: t u
+4	[{est]	S e: s t
+4	[{este]	S e: s t e
+4	[{estoga]	S e: s t o g a
+4	[{estorica]	S e s t o: r i c a
+4	[sedam]	s e: d a m
+4	[sedme]	s e: d m e
+4	[sedmorica]	s e d m o: r i c a
+4	[osam]	o: s a m
+4	[osme]	o: s m e
+4	[osmero]	o: s m e r o
+4	[devet]	d e: v e t
+4	[devetorica]	d e v e t o: r i c a
+4	[devetoga]	d e: v e t o g a
+4	[devete]	d e: v e t e
+4	[devetorice]	d e v e t o: r i c e
+4	[devetero]	d e: v e t e r o
+4	[deset]	d e: s e t
+4	[deseta]	d e: s e t a
+4	[desetoj]	d e: s e t o j
+4	[desetero]	d e: s e t e r o
+4	[desetak]	d e s e: t a k
+4	[jedanaest]	j e d a: n a j s t
+4	[jedanaestog]	j e d a: n a j s t o g
+4	[dvanaest]	d v a: n a j s t
+4	[dvanaestoga]	d v a: n a j s t o g a
+4	[trinaest]	t r i: n a j s t
+4	[trinaestoga]	t r i: n a j s t o g a
+4	[trinaesta]	t r i: n a j s t a
+4	[~etrnaest]	C e t r: n a j s t
+4	[~etrnaestoga]	C e t r: n a j s t o g a
+4	[petnaest]	p e: t n a j s t
+4	[petnaeste]	p e: t n a j s t e
+4	[{esnaest]	S e: s n a j s t
+4	[{esnaestero]	S e: s n a j s t e r o
+4	[sedamnaest]	s e d a: m n a j s t
+4	[osamnaest]	o: s a m n a j s t
+4	[devetnaest]	d e v e: t n a j s t
+4	[devetnaestoga]	d e v e: t n a j s t o g a
+4	[devetnaesti]	d e v e: t n a j s t i
+4	[petnaest]	p e: t n a j s t
+4	[petnaeste]	p e: t n a j s t e
+4	[devetnaest]	d e v e: t n a j s t
+4	[devetnaestoga]	d e v e: t n a j s t o g a
+4	[devetnaesti]	d e v e: t n a j s t i
+4	[dvadeset]	d v a: d e s e t
+4	[dvadesetak]	d v a d e s e: t a k
+4	[dvadesetog]	d v a: d e s e t o g
+4	[trideset]	t r i: d e s e t
+4	[~etrdeset]	C e t r d e: s e t
+4	[pedeset]	p e d e: s e t
+4	[{ezdeset]	S e z d e: s e t
+4	[{ezdesetak]	S e z d e s e: t a k
+4	[sedamdeset]	s e d a m d e: s e t
+4	[osamdeset]	o s a m d e: s e t
+4	[osamdesetak]	o s a m d e s e: t a k
+4	[devedesetih]	d e v e d e: s e t i h
+4	[sto]	s t o:
+4	[stotinjak]	s t o t i: N a k
+4	[stotinu]	s t o: t i n u
+4	[stotina]	s t o: t i n a
+4	[stotine]	s t o: t i n e
+4	[dvjesto]	d v j e: s t o
+4	[dvjestotinjak]	d v j e s t o t i: N a k
+4	[tristo]	t r i: s t o
+4	[~etiristo]	C e: t r i s t o
+4	[petsto]	p e: t s t o
+4	[{esto]	S e: s t o
+4	[sedamsto]	s e: d a m s t o
+4	[osamsto]	o: s a m s t o
+4	[devetsto]	d e: v e t s t o
+4	[tisu^u]	t i: s u cc u
+4	[tisu^ite]	t i: s u cc i t e
+4	[tisu^a]	t i: s u cc a
+4	[tisu^e]	t i: s u cc e
+4	[dvijetisu^ite]	d v i: j e t i: s u cc i t e
+4	[milijun]	m i l i: j u n
+4	[milijuna]	m i l j u: n a
+4	[milijunima]	m i l j u: n i m a
+5	[ponedjeljak]	p o n e: d j e L a k
+5	[utorak]	u: t o r a k
+5	[srijedu]	s r i j e: d u
+5	[~etvrtak]	C e t v r: t a k
+5	[petak]	p e: t a k
+5	[subotu]	s u: b o t u
+5	[nedjelju]	n e: d j e L u
+6	[sije~nja]	s j e: C N a
+6	[velja~i]	v e: L a C i
+6	[o`ujak]	o: Z u j a k
+6	[o`ujku]	o: Z u j k u
+6	[travnju]	t r a: v N u
+6	[svibnja]	s v i: b N a
+6	[srpnju]	s r: p N u
+6	[kolovoza]	k o: l o v o z a
+6	[rujna]	r u: j n a
+6	[listopadu]	l i: s t o p a d u
+6	[listopada]	l i: s t o p a d a
+6	[listopad]	l i: s t o p a d
+6	[studenome]	s t u: d e n o m e
+6	[studenoga]	s t u: d e n o g a
+6	[prosinca]	p r o: s i n c a
+7	[u]	u
+8	[smanjio]	s m a: N i o
+8	[smanjenju]	s m a N e: N u
+8	[smanjene]	s m a: N e n e
+8	[smanjenjem]	s m a N e: N e m
+8	[smanjena]	s m a: N e n a
+9	[pove^ano]	p o: v e cc a n o
+9	[pove^a]	p o: v e cc a
+9	[pove^ava]	p o v e: cc a v a
+9	[pove^anja]	p o v e cc a: N a
